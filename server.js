@@ -286,8 +286,6 @@ function mongoConnect() {
 }
 }
 
-
-
 function mongoLoop() {
     mongoConnect().then((r) => {
         mongoConnected = true;
